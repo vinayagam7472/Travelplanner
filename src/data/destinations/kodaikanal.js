@@ -1,0 +1,82 @@
+export const kodaikanalData = {
+  id: "kodaikanal",
+  name: "Kodaikanal",
+  tagline: "The Princess of Hill Stations",
+  description: "Perched on the southern crest of the Palani Hills, Kodaikanal is a misty retreat famous for its star-shaped lake, pine forests, towering granite cliffs, and cool, tranquil atmosphere. Its name in Tamil translates to 'The Gift of the Forest'.",
+  coverImage: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80",
+  category: "Hill Stations",
+  bestTimeToVisit: "September to May",
+  budgetLevel: "High",
+  attractions: [
+    {
+      id: "kodai-lake",
+      name: "Kodaikanal Lake",
+      description: "An iconic star-shaped, man-made lake created in 1863. The lake is the center of activity in Kodaikanal. Visitors can enjoy boating (rowboats, paddleboats), rent bicycles to ride along the 5 km perimeter path, or go horse riding.",
+      category: "Nature",
+      image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+      openingHours: "6:00 AM - 6:00 PM",
+      entryFee: { domestic: 0, foreign: 0, boatRental: 200 },
+      bestTimeToVisit: "Late Afternoon (cool and misty)",
+      googleMapsLink: "https://maps.google.com/?q=Kodaikanal+Lake",
+      estimatedTimeSpent: "2 hours",
+      familyFriendly: true,
+      adventureLevel: "Low"
+    },
+    {
+      id: "coakers-walk",
+      name: "Coaker's Walk",
+      description: "A 1-km paved pedestrian path constructed in 1872 by Lt. Coaker. Running along the edge of steep southern slopes, it offers breathtaking panoramic views of the plains, valleys, and the city of Madurai on clear days.",
+      category: "Nature",
+      image: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=800&q=80",
+      openingHours: "7:00 AM - 7:00 PM",
+      entryFee: { domestic: 25, foreign: 25, camera: 30 },
+      bestTimeToVisit: "7:00 AM - 9:00 AM (for sunrise above the clouds)",
+      googleMapsLink: "https://maps.google.com/?q=Coaker's+Walk+Kodaikanal",
+      estimatedTimeSpent: "1 hour",
+      familyFriendly: true,
+      adventureLevel: "Low"
+    },
+    {
+      id: "pillar-rocks",
+      name: "Pillar Rocks",
+      description: "A set of three giant, vertical granite rock boulders standing shoulder-to-shoulder, rising to a height of 400 feet (122 meters) above the valley floor. The chambers between the pillars are known as Devil's Kitchen (now closed for safety).",
+      category: "Hill Stations",
+      image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      openingHours: "9:00 AM - 4:30 PM",
+      entryFee: { domestic: 10, foreign: 10, camera: 20 },
+      bestTimeToVisit: "10:00 AM - 12:00 PM (before mist blocks the view)",
+      googleMapsLink: "https://maps.google.com/?q=Pillar+Rocks+Kodaikanal",
+      estimatedTimeSpent: "1 hour",
+      familyFriendly: true,
+      adventureLevel: "Low"
+    },
+    {
+      id: "guna-caves",
+      name: "Guna Caves (Devil's Kitchen)",
+      description: "A group of deep, narrow cave ravines formed between three massive boulders. Made famous by the Tamil movie 'Guna' and recently highlighted in 'Manjummel Boys', it is a mysterious spot surrounded by thick Shola forests and giant exposed roots.",
+      category: "Adventure",
+      image: "https://images.unsplash.com/photo-1526312426976-f4d754fa9bd6?auto=format&fit=crop&w=800&q=80",
+      openingHours: "9:00 AM - 4:30 PM",
+      entryFee: { domestic: 20, foreign: 20 },
+      bestTimeToVisit: "Morning",
+      googleMapsLink: "https://maps.google.com/?q=Guna+Caves+Kodaikanal",
+      estimatedTimeSpent: "1.5 hours",
+      familyFriendly: true,
+      adventureLevel: "Medium"
+    },
+    {
+      id: "bryant-park",
+      name: "Bryant Park",
+      description: "A beautifully maintained 20-acre botanical garden located on the east of Kodaikanal Lake. It features a wide variety of flowers, hybrids, a glasshouse, and a 160-year-old eucalyptus tree. It hosts the annual flower show in May.",
+      category: "Nature",
+      image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
+      openingHours: "9:00 AM - 6:00 PM",
+      entryFee: { domestic: 30, foreign: 100, camera: 50 },
+      bestTimeToVisit: "Morning",
+      googleMapsLink: "https://maps.google.com/?q=Bryant+Park+Kodaikanal",
+      estimatedTimeSpent: "1.5 hours",
+      familyFriendly: true,
+      adventureLevel: "Low"
+    }
+  ]
+};
